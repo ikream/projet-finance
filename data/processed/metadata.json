@@ -1,0 +1,13 @@
+{
+  "features": [
+    "index"
+  ],
+  "sequence_length": 30,
+  "train_size": 1053,
+  "val_size": 225,
+  "test_size": 227,
+  "data_range": {
+    "start": "2022-01-03",
+    "end": "2024-12-30"
+  }
+}

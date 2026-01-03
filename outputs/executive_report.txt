@@ -1,0 +1,36 @@
+============================================================
+RAPPORT DE PRÉDICTION - FINSENSE AI
+Généré le: 2026-01-02 20:11:49
+============================================================
+
+RÉSUMÉ EXÉCUTIF
+
+Prix actuel: $251.06
+
+SIGNALS DE TRADING:
+  • PROPHET: [VENTE] (Confiance: 79.2%)
+    Prévision de baisse de 50.00%
+  • LSTM: [ACHAT] (Confiance: 94.0%)
+    Prévision de hausse de 50.00%
+
+PRÉDICTIONS POUR LES 7 PROCHAINS JOURS:
+  • 2024-07-20: $0.01 (Confiance: 80.0%)
+  • 2024-07-21: $0.01 (Confiance: 80.0%)
+  • 2024-07-22: $232.11 (Confiance: 80.0%)
+  • 2024-07-23: $232.48 (Confiance: 80.0%)
+  • 2024-07-24: $232.73 (Confiance: 80.0%)
+  • 2024-07-25: $232.73 (Confiance: 80.0%)
+  • 2024-07-26: $233.17 (Confiance: 80.0%)
+
+RECOMMANDATION DE PORTEFEUILLE:
+  Tendance générale: NEUTRAL
+  Confiance totale: 86.6%
+  Allocations recommandées:
+    • VENTE: 45.7% ($4,572.75)
+    • ACHAT: 54.3% ($5,427.25)
+
+============================================================
+DISCLAIMER:
+Ces prédictions sont basées sur des modèles d'IA et des données historiques.
+Elles ne constituent pas un conseil financier. Investissez avec prudence.
+============================================================

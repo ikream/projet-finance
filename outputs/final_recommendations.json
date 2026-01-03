@@ -1,0 +1,327 @@
+{
+  "signals": [
+    {
+      "action": "BUY",
+      "confidence": 94.0,
+      "predicted_change_percent": 2.0,
+      "message": "Pr\u00e9vision de hausse de 2.00%",
+      "timestamp": "2026-01-02 20:56:20",
+      "model": "prophet",
+      "current_price": 251.06,
+      "predicted_price": 256.09,
+      "actual_change": 2.0
+    },
+    {
+      "action": "HOLD",
+      "confidence": 66.5,
+      "predicted_change_percent": -0.15,
+      "message": "March\u00e9 stable (changement de -0.15%)",
+      "timestamp": "2026-01-02 20:56:20",
+      "model": "lstm",
+      "current_price": 251.06,
+      "predicted_price": 250.68,
+      "actual_change": -0.15
+    }
+  ],
+  "portfolio_recommendation": {
+    "portfolio_value": 10000,
+    "total_confidence": 80.2,
+    "allocations": [
+      {
+        "action": "BUY",
+        "confidence": 94.0,
+        "allocation_percent": 58.6,
+        "allocation_amount": 5856.7,
+        "predicted_change": 2.0,
+        "message": "Pr\u00e9vision de hausse de 2.00%"
+      },
+      {
+        "action": "HOLD",
+        "confidence": 66.5,
+        "allocation_percent": 41.4,
+        "allocation_amount": 4143.3,
+        "predicted_change": -0.15,
+        "message": "March\u00e9 stable (changement de -0.15%)"
+      }
+    ],
+    "timestamp": "2026-01-02 20:56:20",
+    "overall_action": "BULLISH"
+  },
+  "consolidated_predictions": [
+    {
+      "date": "2024-07-20",
+      "predicted_price": 256.09,
+      "confidence": 95.0,
+      "lower_bound": 230.48,
+      "upper_bound": 281.7,
+      "models_used": [
+        "prophet"
+      ],
+      "individual_predictions": [
+        {
+          "date": "2024-07-20",
+          "predicted_price": 256.09,
+          "lower_bound": 10,
+          "upper_bound": 10,
+          "confidence_interval": "[10, 10]",
+          "model": "prophet",
+          "confidence": 95
+        }
+      ]
+    },
+    {
+      "date": "2024-07-21",
+      "predicted_price": 256.09,
+      "confidence": 95.0,
+      "lower_bound": 230.48,
+      "upper_bound": 281.7,
+      "models_used": [
+        "prophet"
+      ],
+      "individual_predictions": [
+        {
+          "date": "2024-07-21",
+          "predicted_price": 256.09,
+          "lower_bound": 10,
+          "upper_bound": 10,
+          "confidence_interval": "[10, 10]",
+          "model": "prophet",
+          "confidence": 95
+        }
+      ]
+    },
+    {
+      "date": "2024-07-22",
+      "predicted_price": 232.11,
+      "confidence": 95.0,
+      "lower_bound": 208.9,
+      "upper_bound": 255.32,
+      "models_used": [
+        "prophet"
+      ],
+      "individual_predictions": [
+        {
+          "date": "2024-07-22",
+          "predicted_price": 232.11,
+          "lower_bound": 227.5,
+          "upper_bound": 237.1,
+          "confidence_interval": "[227.5, 237.1]",
+          "model": "prophet",
+          "confidence": 95
+        }
+      ]
+    },
+    {
+      "date": "2024-07-23",
+      "predicted_price": 232.48,
+      "confidence": 95.0,
+      "lower_bound": 209.23,
+      "upper_bound": 255.73,
+      "models_used": [
+        "prophet"
+      ],
+      "individual_predictions": [
+        {
+          "date": "2024-07-23",
+          "predicted_price": 232.48,
+          "lower_bound": 227.38,
+          "upper_bound": 237.27,
+          "confidence_interval": "[227.38, 237.27]",
+          "model": "prophet",
+          "confidence": 95
+        }
+      ]
+    },
+    {
+      "date": "2024-07-24",
+      "predicted_price": 232.73,
+      "confidence": 95.0,
+      "lower_bound": 209.46,
+      "upper_bound": 256.0,
+      "models_used": [
+        "prophet"
+      ],
+      "individual_predictions": [
+        {
+          "date": "2024-07-24",
+          "predicted_price": 232.73,
+          "lower_bound": 228.21,
+          "upper_bound": 237.79,
+          "confidence_interval": "[228.21, 237.79]",
+          "model": "prophet",
+          "confidence": 95
+        }
+      ]
+    },
+    {
+      "date": "2024-07-25",
+      "predicted_price": 232.73,
+      "confidence": 95.0,
+      "lower_bound": 209.46,
+      "upper_bound": 256.0,
+      "models_used": [
+        "prophet"
+      ],
+      "individual_predictions": [
+        {
+          "date": "2024-07-25",
+          "predicted_price": 232.73,
+          "lower_bound": 227.92,
+          "upper_bound": 237.76,
+          "confidence_interval": "[227.92, 237.76]",
+          "model": "prophet",
+          "confidence": 95
+        }
+      ]
+    },
+    {
+      "date": "2024-07-26",
+      "predicted_price": 233.17,
+      "confidence": 95.0,
+      "lower_bound": 209.85,
+      "upper_bound": 256.49,
+      "models_used": [
+        "prophet"
+      ],
+      "individual_predictions": [
+        {
+          "date": "2024-07-26",
+          "predicted_price": 233.17,
+          "lower_bound": 228.34,
+          "upper_bound": 238.3,
+          "confidence_interval": "[228.34, 238.3]",
+          "model": "prophet",
+          "confidence": 95
+        }
+      ]
+    },
+    {
+      "date": "2024-12-31",
+      "predicted_price": 250.68,
+      "confidence": 95.0,
+      "lower_bound": 225.61,
+      "upper_bound": 275.75,
+      "models_used": [
+        "lstm"
+      ],
+      "individual_predictions": [
+        {
+          "date": "2024-12-31",
+          "predicted_price": 250.68,
+          "confidence": 95,
+          "model": "lstm"
+        }
+      ]
+    },
+    {
+      "date": "2025-01-01",
+      "predicted_price": 250.68,
+      "confidence": 87.0,
+      "lower_bound": 225.61,
+      "upper_bound": 275.75,
+      "models_used": [
+        "lstm"
+      ],
+      "individual_predictions": [
+        {
+          "date": "2025-01-01",
+          "predicted_price": 250.68,
+          "confidence": 87,
+          "model": "lstm"
+        }
+      ]
+    },
+    {
+      "date": "2025-01-02",
+      "predicted_price": 250.68,
+      "confidence": 79.0,
+      "lower_bound": 225.61,
+      "upper_bound": 275.75,
+      "models_used": [
+        "lstm"
+      ],
+      "individual_predictions": [
+        {
+          "date": "2025-01-02",
+          "predicted_price": 250.68,
+          "confidence": 79,
+          "model": "lstm"
+        }
+      ]
+    },
+    {
+      "date": "2025-01-03",
+      "predicted_price": 250.68,
+      "confidence": 71.0,
+      "lower_bound": 225.61,
+      "upper_bound": 275.75,
+      "models_used": [
+        "lstm"
+      ],
+      "individual_predictions": [
+        {
+          "date": "2025-01-03",
+          "predicted_price": 250.68,
+          "confidence": 71,
+          "model": "lstm"
+        }
+      ]
+    },
+    {
+      "date": "2025-01-04",
+      "predicted_price": 250.68,
+      "confidence": 63.0,
+      "lower_bound": 225.61,
+      "upper_bound": 275.75,
+      "models_used": [
+        "lstm"
+      ],
+      "individual_predictions": [
+        {
+          "date": "2025-01-04",
+          "predicted_price": 250.68,
+          "confidence": 63,
+          "model": "lstm"
+        }
+      ]
+    },
+    {
+      "date": "2025-01-05",
+      "predicted_price": 250.68,
+      "confidence": 60.0,
+      "lower_bound": 225.61,
+      "upper_bound": 275.75,
+      "models_used": [
+        "lstm"
+      ],
+      "individual_predictions": [
+        {
+          "date": "2025-01-05",
+          "predicted_price": 250.68,
+          "confidence": 60,
+          "model": "lstm"
+        }
+      ]
+    },
+    {
+      "date": "2025-01-06",
+      "predicted_price": 250.68,
+      "confidence": 60.0,
+      "lower_bound": 225.61,
+      "upper_bound": 275.75,
+      "models_used": [
+        "lstm"
+      ],
+      "individual_predictions": [
+        {
+          "date": "2025-01-06",
+          "predicted_price": 250.68,
+          "confidence": 60,
+          "model": "lstm"
+        }
+      ]
+    }
+  ],
+  "current_price": 251.06448364257807,
+  "prediction_date": "2026-01-02 20:56:20"
+}

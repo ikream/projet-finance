@@ -1,0 +1,51 @@
+[
+  {
+    "date": "2024-07-20",
+    "predicted_price": -305.04,
+    "lower_bound": -309.93,
+    "upper_bound": -299.91,
+    "confidence_interval": "[-309.93, -299.91]"
+  },
+  {
+    "date": "2024-07-21",
+    "predicted_price": -304.13,
+    "lower_bound": -308.95,
+    "upper_bound": -299.07,
+    "confidence_interval": "[-308.95, -299.07]"
+  },
+  {
+    "date": "2024-07-22",
+    "predicted_price": 232.11,
+    "lower_bound": 227.31,
+    "upper_bound": 237.0,
+    "confidence_interval": "[227.31, 237.0]"
+  },
+  {
+    "date": "2024-07-23",
+    "predicted_price": 232.48,
+    "lower_bound": 227.61,
+    "upper_bound": 237.11,
+    "confidence_interval": "[227.61, 237.11]"
+  },
+  {
+    "date": "2024-07-24",
+    "predicted_price": 232.73,
+    "lower_bound": 227.39,
+    "upper_bound": 237.5,
+    "confidence_interval": "[227.39, 237.5]"
+  },
+  {
+    "date": "2024-07-25",
+    "predicted_price": 232.73,
+    "lower_bound": 227.67,
+    "upper_bound": 237.78,
+    "confidence_interval": "[227.67, 237.78]"
+  },
+  {
+    "date": "2024-07-26",
+    "predicted_price": 233.17,
+    "lower_bound": 228.15,
+    "upper_bound": 237.96,
+    "confidence_interval": "[228.15, 237.96]"
+  }
+]
