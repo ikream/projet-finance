@@ -1,0 +1,30 @@
+version: "3.8"
+
+services:
+  postgres:
+    image: postgres:15
+    container_name: finsense_postgres_open
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      # On met un mot de passe bidon car le mode trust l'ignorera de toute façon
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: finsense_db
+      # C'EST LA CLÉ : On désactive la vérification du mot de passe
+      POSTGRES_HOST_AUTH_METHOD: trust
+    ports:
+      # NOUVEAU PORT : 5434 (Pour être sûr qu'il est libre)
+      - "5434:5432"
+    # PAS DE VOLUMES = Pas de mémoire du passé
+
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: finsense_pgadmin_open
+    restart: always
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@finsense.com
+      PGADMIN_DEFAULT_PASSWORD: admin
+    ports:
+      - "5055:80" # J'ai changé ce port aussi pour éviter les conflits
+    depends_on:
+      - postgres
